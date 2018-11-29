@@ -76,7 +76,7 @@ a {
     padding: 10px 0px
 }
 
-img {
+.profile {
     padding: 10px;
     float: left;
 }
@@ -134,7 +134,8 @@ input[type=submit]:hover {
 
 .image { 
     position: relative; 
-    width: 100%;
+    float: left;
+    margin: 10px;
  }
 
 .text {
@@ -146,4 +147,5 @@ input[type=submit]:hover {
     position: absolute;
     width: 250px;
     justify-content:space-around;
+    bottom: 20px;
    }
